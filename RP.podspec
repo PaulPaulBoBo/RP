@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RP'
-  s.version          = '0.1.6'
-  s.summary          = 'RP is the base of RProject.'
+  s.version          = '0.1.7'
+  s.summary          = 'R Project.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,20 +24,20 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/PaulPaulBoBo/RP'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liubo' => '13621905107@163.com' }
-  s.source           = { :git => 'https://github.com/PaulPaulBoBo/RP.git', :tag => "#{s.version}" }
+  s.source           = { :git => 'https://github.com/PaulPaulBoBo/RP.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'RP/Classes/*'
+  s.source_files = 'RP/Classes/**/*'
   
   # s.resource_bundles = {
   #   'RP' => ['RP/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-#   s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit'
+   s.dependency 'AFNetworking', '~> 2.3'
 #   s.dependency 'Masonry'
 #   s.dependency 'YYKit'
 #   s.dependency 'IQKeyboardManager', '6.0.6'
