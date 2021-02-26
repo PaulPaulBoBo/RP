@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RP'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = 'R Project.'
 
 # This description is used to generate tags and improve search results.
@@ -40,6 +40,6 @@ Pod::Spec.new do |s|
    s.dependency 'AFNetworking'
    s.dependency 'Masonry'
    s.dependency 'YYKit'
-   s.dependency 'IQKeyboardManager'
-   s.dependency 'JSONModel'
+#   s.dependency 'IQKeyboardManager'
+#   s.dependency 'JSONModel'
 end
