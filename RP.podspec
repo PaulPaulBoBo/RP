@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RP'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'RP is the base of RProject.'
 
 # This description is used to generate tags and improve search results.
@@ -24,12 +24,12 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/PaulPaulBoBo/RP'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liubo' => '13621905107@163.com' }
-  s.source           = { :git => 'https://github.com/PaulPaulBoBo/RP.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/PaulPaulBoBo/RP.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'RP/Classes/**/*'
+  s.source_files = 'RP/Classes/*'
   
   # s.resource_bundles = {
   #   'RP' => ['RP/Assets/*.png']

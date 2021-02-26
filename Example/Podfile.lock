@@ -23,7 +23,7 @@ PODS:
   - IQKeyboardManager (6.0.6)
   - JSONModel (1.8.0)
   - Masonry (1.1.0)
-  - RP (0.1.1):
+  - RP (0.1.2):
     - AFNetworking (~> 2.3)
     - IQKeyboardManager (= 6.0.6)
     - JSONModel
@@ -53,7 +53,7 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 6b4ecd3e59cf55a26133d802d4678721d7f88499
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  RP: 6622bf53d4dac11f2f8a5c6edfc4aea8f95ddacc
+  RP: 3cefa2d3bf1d2ce6e13aba533a18cc2c78714fe2
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: 6fd4c033828ad1d77346d0020893765581977d91
