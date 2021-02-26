@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RP'
-  s.version          = '0.1.4'
+  s.version          = '0.1.6'
   s.summary          = 'RP is the base of RProject.'
 
 # This description is used to generate tags and improve search results.
@@ -37,9 +37,9 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', '~> 2.3'
-   s.dependency 'Masonry'
-   s.dependency 'YYKit'
-   s.dependency 'IQKeyboardManager', '6.0.6'
-   s.dependency 'JSONModel'
+#   s.dependency 'AFNetworking', '~> 2.3'
+#   s.dependency 'Masonry'
+#   s.dependency 'YYKit'
+#   s.dependency 'IQKeyboardManager', '6.0.6'
+#   s.dependency 'JSONModel'
 end
