@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RP'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'R Project.'
 
 # This description is used to generate tags and improve search results.
@@ -36,8 +36,8 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit'
-   s.dependency 'AFNetworking', '~> 2.3'
+#   s.frameworks = 'UIKit'
+#   s.dependency 'AFNetworking', '~> 2.3'
 #   s.dependency 'Masonry'
 #   s.dependency 'YYKit'
 #   s.dependency 'IQKeyboardManager', '6.0.6'
