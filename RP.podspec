@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
 #   s.frameworks = 'UIKit'
    s.dependency 'AFNetworking'
    s.dependency 'Masonry'
-   s.dependency 'YYKit'
-#   s.dependency 'IQKeyboardManager'
-#   s.dependency 'JSONModel'
+#   s.dependency 'YYKit'
+   s.dependency 'IQKeyboardManager'
+   s.dependency 'JSONModel'
 end
